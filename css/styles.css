@@ -1,0 +1,157 @@
+body {
+    text-align:center;
+}
+.star {
+    margin-right: 100px;
+
+}
+.star2 {
+    padding-top: 60px;
+}
+.title {
+    line-height: 0px;
+    padding: 130px;
+    padding-bottom: 210px;
+    align-items: center;
+}
+.top-container {
+    background: linear-gradient(-60deg, #03001C, #19376D, #5B8FB9, #A5D7E8);
+    background-size: 350% 350%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    font-family:'Cloudlike';
+    font-weight: 100;
+    font-size: 70px;
+    color: white;
+    line-height: 10px;
+
+}
+h2 {
+    font-family: 'Cloudlike';
+    color: white;
+    line-height: 0px;
+}
+.middle-container {
+    background-color: blu;
+
+}
+.profpic {
+    margin-top: 75px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.1);
+}
+.middle-container h2 {
+    font-family: 'Century Gothic';
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(-60deg,#A5D7E8 20%,#5B8FB9 30%,#19376D 70%,#03001C 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 230% auto;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.middle-container p {
+    font-family: 'Century Gothic';
+}
+.intro {
+    padding-bottom: 30px;
+}
+.middle-container h3 {
+    font-family: 'Century Gothic';
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #19376D;
+}
+.intro {
+    width: 50%;
+    margin: auto;
+}
+.prototype {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.btn:hover {
+    text-shadow: #666666;
+    background-color: #A5D7E8;
+    border-color: #A5D7E8;;
+    color: black;
+    transition: 1s;
+}
+.btn {
+    width: 25%;
+    height: 50px;
+    border: 1px solid;
+    background: #03001C;
+    border-radius: 25px;
+    font-size: 18px;
+    border-color: #03001C;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    margin: 0 0 30px;
+}
+
+.contact-me h3 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    line-height: 0px;
+    font-family: 'Century Gothic';
+
+}
+.skills h2 {
+    padding-bottom: 26px;
+}
+.bottom-container {
+    padding: 80px;
+    padding-bottom: 50px;
+    background-color: #5B8FB9;
+}
+
+.bottom-container p {
+    font-family: 'Century Gothic';
+    font-size: 12px;
+}
+
+#twt{
+    padding-right: 10px;
+}
+
+#ig {
+    padding-right: 10px;
+}
+.button {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
